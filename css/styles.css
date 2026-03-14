@@ -28,7 +28,7 @@ body {
 
 #ar-container {
     position: absolute;
-    display: none;
+    /* display: none; */
     top: -50px;
     left: 100px;
     height: 800px;

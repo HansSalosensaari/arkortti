@@ -34,9 +34,9 @@ body {
     /* top: -50px; */
     /* left: 100px; */
     /* height: 800px; */
-    height: 50%;
+    height: 50vh;
     /* width: 2000px; */
-    width: 80%;
+    width: 80vw;
     border: 2px solid red;
 }
 

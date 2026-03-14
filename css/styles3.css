@@ -21,7 +21,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -30,10 +30,12 @@ body {
     position: absolute;
     display: none;
     visibility: hidden;
-    top: -50px;
-    left: 100px;
-    height: 800px;
-    width: 2000px;
+    /* top: -50px; */
+    /* left: 100px; */
+    /* height: 800px; */
+    height: 50%;
+    /* width: 2000px; */
+    width: 80%;
     border: 2px solid red;
 }
 

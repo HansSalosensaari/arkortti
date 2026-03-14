@@ -34,6 +34,7 @@ body {
     left: 100px;
     height: 800px;
     width: 4000px;
+    border: 2px solid red;
 }
 
 #ar-container.ar-active {

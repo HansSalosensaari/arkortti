@@ -1,0 +1,152 @@
+@keyframes imagezoom {
+    0% {height: 0px; width: 400px; left: -50px; top: 15%;}
+    100% {height: 400px; width: 400px; left: -50px; top: 15%;}
+}
+
+@keyframes buttonslide {
+    0% {top: 25%; width: 0px; height: 0px; left: 25%; opacity: 0; z-index: -1;}
+    50% {top: 25%; width: 0px; height: 0px; left: 25%; opacity: 0;}
+    75% {top: 650px; width: 0px; height: 150px; left: 25%; opacity: 1;}
+    100% {top: 650px; width: 800px; left: 25%; z-index: 0;}
+}
+
+@keyframes infoslide {
+    0% {top: 25%; left: 25%; height: 0px; width: 0px; opacity: 0;}
+    50% {top: 25%; left: 25%; height: 0px; width: 0px; opacity: 0;}
+    75% {top: 15%; left: 1550px; height: 0px; width: 600px; opacity: 1;}
+    100% {top: 15%; left: 1550px; height: 675px; width: 600px; opacity: 1;}
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ar-container {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    height: 800px;
+    width: 2200px;
+    /* border: 1px solid red; */
+}
+
+#selfieimg, #whoishans, #buttons {
+    position: absolute;
+    border: 10px solid rgba(0, 175, 75, 0.3);
+    background-color: rgba(0, 75, 175, 0.3);
+    border-radius: 20px;
+}
+
+#selfieimg {
+    height: 400px;
+    width: 400px;
+    top: 15%;
+    left: -50px;
+}
+
+.ar-active #selfieimg {
+    animation: imagezoom 1s;
+}
+
+#whoishans {
+    color: #000;
+    height: 675px;
+    width: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    left: 1550px;
+    top: 15%;
+    z-index: -1;
+    overflow: hidden;
+    background-color: rgba(0, 50, 120, 0.8);
+}
+
+.ar-active #whoishans {
+    animation: infoslide 4s;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+ul {
+    font-size: 35px;
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul li {
+    line-height: 40px;
+    margin: 10px;
+}
+
+#buttons {
+    position: absolute;
+    top: 650px;
+    left: 25%;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.ar-active #buttons {
+    animation: buttonslide 2s;
+}
+
+button {
+    border: 2px solid olive;
+    border-radius: 50%;
+    width: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+button:active {
+    border: 5px solid olive;
+}
+
+#callbutton, #emailbutton {
+    background-color: lightgreen;
+}
+
+#closebutton {
+    background-color: rgba(255, 0, 0, 0.63);
+}
+
+#infobox {
+    opacity: 0;
+    transition: opacity 1.5s;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    height: 123px;
+    width: 800px;
+    background-color: rgba(210, 210, 210, 0.8);
+    border: 10px solid rgba(0, 175, 75, 0.3);
+    border-radius: 20px;
+}
+
+#infobox.visible {
+    opacity: 1;
+}
+
+#infomessage {
+    font-size: 200%;
+    width: 95%;
+    text-align: center;
+    font-family: monospace;
+    margin: 25px auto;
+}

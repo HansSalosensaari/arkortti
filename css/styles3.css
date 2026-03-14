@@ -17,6 +17,20 @@
     100% {top: 15%; left: 1550px; height: 750px; width: 600px; opacity: 1;}
 }
 
+/* Pointer: coarse = kosketusnäyttölaite */
+@media (orientation: portrait) and (pointer: coarse) {
+    @keyframes imagezoom {
+        0% {}
+        
+    }
+}
+
+
+/* Pointer: fine = tietokone */
+@media (pointer: fine) {
+    
+}
+
 body {
     position: relative;
     margin: 0;
@@ -34,7 +48,9 @@ body {
     /* top: -50px; */
     /* left: 100px; */
     /* height: 800px; */
+    height: 10px;
     /* width: 2000px; */
+    width: 10px;
     border: 2px solid red;
 }
 

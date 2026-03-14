@@ -28,7 +28,7 @@ body {
 
 #ar-container {
     position: absolute;
-    /* display: none; */
+    display: none;
     top: -50px;
     left: 100px;
     height: 800px;
@@ -52,7 +52,6 @@ body {
     width: 400px;
     top: 15%;
     left: -50px;
-    background-color: rgba(0, 0, 0, 1);
 }
 
 .ar-active #selfieimg {

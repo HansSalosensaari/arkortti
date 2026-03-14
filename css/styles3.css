@@ -33,7 +33,7 @@ body {
     top: -50px;
     left: 100px;
     height: 800px;
-    width: 3000px;
+    width: 2000px;
     border: 2px solid red;
 }
 
@@ -151,9 +151,9 @@ button:active {
 }
 
 #infomessage {
-    font-size: 225%;
+    font-size: 300%;
     width: 95%;
     text-align: center;
     font-family: monospace;
-    margin: 25px auto;
+    margin: 50px auto;
 }

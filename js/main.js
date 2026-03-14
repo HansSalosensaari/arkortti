@@ -40,7 +40,7 @@ function closeTab() {
 async function startAR() {
     const mindARThreeJs = new window.MINDAR.IMAGE.MindARThree({
         container: document.body,
-        imageTargetSrc: "../kortti.mind"
+        imageTargetSrc: "kortti.mind"
     });
 
     const { cssRenderer, renderer, cssScene, scene, camera } = mindARThreeJs;

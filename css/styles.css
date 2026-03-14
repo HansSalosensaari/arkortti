@@ -26,13 +26,18 @@ body {
     overflow: hidden;
 }
 
-.ar-container {
+#ar-container {
     position: absolute;
+    display: none;
     top: -50px;
     left: 100px;
     height: 800px;
     width: 2200px;
     /* border: 1px solid red; */
+}
+
+.ar-active #ar-container {
+    display: block;
 }
 
 #selfieimg, #whoishans, #buttons {
@@ -47,6 +52,7 @@ body {
     width: 400px;
     top: 15%;
     left: -50px;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .ar-active #selfieimg {

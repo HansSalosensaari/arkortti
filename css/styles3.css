@@ -18,12 +18,13 @@
 }
 
 /* Pointer: coarse = kosketusnäyttölaite */
-@media (orientation: portrait) and (pointer: coarse) {
+/* @media (orientation: portrait) and (pointer: coarse) {
     @keyframes imagezoom {
-        0% {}
+        0% {height: 0px; width: ;
+        }
         
     }
-}
+} */
 
 
 /* Pointer: fine = tietokone */
@@ -48,9 +49,9 @@ body {
     /* top: -50px; */
     /* left: 100px; */
     /* height: 800px; */
-    height: 10px;
+    height: 100vh;
     /* width: 2000px; */
-    width: 10px;
+    width: 100vw;
     border: 2px solid red;
 }
 

@@ -41,8 +41,8 @@ body {
     left: 0;
     display: none;
     visibility: hidden;
-    height: 300vh;
-    width: 1000vw;
+    height: 500vh;
+    width: 800vw;
     border: 2px solid red;
 }
 

@@ -65,7 +65,7 @@ body {
 @keyframes buttonslide {
     0% {top: 300px; width: 0px; height: 0px; left: 50%; opacity: 0; z-index: -1;}
     50% {top: 300px; width: 0px; height: 0px; left: 50%; opacity: 0;}
-    75% {top: 650px; width: 0px; height: 150px; left: 10%; opacity: 1;}
+    75% {top: 650px; width: 0px; height: 150px; left: 50%; opacity: 1;}
     100% {top: 650px; width: 800px; left: 10%; z-index: 0;}
 }
 
@@ -79,7 +79,7 @@ body {
     top: 1450px;
     z-index: -1;
     overflow: hidden;
-    background-color: rgba(0, 50, 120, 0.8);
+    background-color: rgba(0, 100, 240, 0.8);
 }
 
 #ar-container.ar-active #whoishans {

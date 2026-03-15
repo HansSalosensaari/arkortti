@@ -63,8 +63,8 @@ body {
 }
 
 @keyframes buttonslide {
-    0% {top: 300px; width: 0px; height: 0px; left: 10%; opacity: 0; z-index: -1;}
-    50% {top: 300px; width: 0px; height: 0px; left: 10%; opacity: 0;}
+    0% {top: 300px; width: 0px; height: 0px; left: 50%; opacity: 0; z-index: -1;}
+    50% {top: 300px; width: 0px; height: 0px; left: 50%; opacity: 0;}
     75% {top: 650px; width: 0px; height: 150px; left: 10%; opacity: 1;}
     100% {top: 650px; width: 800px; left: 10%; z-index: 0;}
 }
@@ -76,7 +76,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     left: 0;
-    top: 50%;
+    top: 1450px;
     z-index: -1;
     overflow: hidden;
     background-color: rgba(0, 50, 120, 0.8);
@@ -89,28 +89,28 @@ body {
 @keyframes infoslide {
     0% {top: 300px; left: 50%; height: 0px; width: 0px; opacity: 0;}
     50% {top: 300px; left: 50%; height: 0px; width: 0px; opacity: 0;}
-    75% {top: 50%; left: 0; height: 0px; width: 100%; opacity: 1;}
-    100% {top: 50%; left: 0; height: 750px; width: 100%; opacity: 1;}
+    75% {top: 1450px; left: 0; height: 0px; width: 100%; opacity: 1;}
+    100% {top: 1450px; left: 0; height: 750px; width: 100%; opacity: 1;}
 }
 
 h2 {
     text-decoration: underline;
     text-align: center;
-    font-size: 40px;
+    font-size: 44px;
     letter-spacing: 3px;
-    margin-bottom: 40px;
+    margin-bottom: 44px;
 }
 
 ul {
-    font-size: 35px;
+    font-size: 39px;
     list-style: none;
     width: 70%;
     margin: 0 auto;
 }
 
 ul li {
-    line-height: 40px;
-    margin: 10px;
+    line-height: 44px;
+    margin: 11px;
 }
 
 button {
@@ -119,7 +119,7 @@ button {
     width: 150px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 button:active {
@@ -139,7 +139,7 @@ button:active {
     transition: opacity 1.5s;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 10%;
     height: 250px;
     width: 800px;
     background-color: rgba(210, 210, 210, 0.8);

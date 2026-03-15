@@ -1,6 +1,6 @@
 @keyframes imagezoom {
-        0% {height: 0px; width: 1000px; top: 15%; left: 50%;}
-        100% {height: 1000px; width: 1000px; top: 5%; left: 50%;}
+        0% {height: 0px; width: 600px; top: 15%; left: 50%;}
+        100% {height: 600px; width: 600px; top: 0; left: 0;}
     }
 
 @keyframes buttonslide {
@@ -19,10 +19,11 @@
 
 
 #selfieimg {
-    height: 1000px;
-    width: 1000px;
-    top: 5%;
-    left: 50%;
+    height: 600px;
+    width: 600px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
 }
 
 body {

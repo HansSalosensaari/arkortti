@@ -16,7 +16,6 @@ body {
     visibility: hidden;
     height: 2200px;
     width: 1000px;
-    border: 2px solid red;
 }
 
 #ar-container.ar-active {

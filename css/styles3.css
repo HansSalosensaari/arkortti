@@ -75,11 +75,12 @@ body {
     width: 1000px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
+    font-weight: bold;
     left: 0;
     top: 1450px;
     z-index: -1;
     overflow: hidden;
-    background-color: rgba(0, 100, 240, 0.8);
+    background-color: rgba(0, 100, 240, 0.9);
 }
 
 #ar-container.ar-active #whoishans {

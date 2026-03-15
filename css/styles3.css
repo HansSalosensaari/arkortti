@@ -35,7 +35,12 @@
 
 /* Pointer: fine = tietokone */
 @media (pointer: fine) {
-    
+    #selfieimg {
+        height: 600px;
+        width: 600px;
+        top: 15%;
+        left: -60px;
+    }
 }
 
 body {
@@ -69,12 +74,6 @@ body {
     border-radius: 20px;
 }
 
-#selfieimg {
-    height: 600px;
-    width: 600px;
-    top: 15%;
-    left: -60px;
-}
 
 #ar-container.ar-active #selfieimg {
     animation: imagezoom 1s;

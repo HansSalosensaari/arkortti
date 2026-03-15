@@ -5,6 +5,11 @@ Tehtävä kurssille Web peliympäristöt
 ## QR-koodi käyntikorttisivulle
 ![Sivun QR-koodi](https://github.com/HansSalosensaari/arkortti/blob/main/KorttiQR.png)
 
+
+
+
+
+
 ## Sivun käyttö
 Skannaa ylläoleva QR-koodi.
 Kun sivu on ladannut ja ruudulla näkyy skanneri, skannaa tämä kuva:
